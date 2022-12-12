@@ -2,14 +2,14 @@
     body{
         background-color: yellow;
         color:black;
-        font-size: 20px;
+       
     }}
 
 @import url('https://fonts.googleapis.com/css2?family=Alexandria&display=swap'); 
 body{
     background-color: white;
     color: black;
-    font-size: 30px;
+    
     font-family: 'Alexandria', sans-serif;
     
 }
@@ -27,27 +27,24 @@ input{
 }
 h1{
     text-align: center;
-    color: aqua;
+    color: blue;
 }
 #regform{
 color: blue;
 font-size: 20px;
 }
-input[type=submit]{
-background-color: aqua;
-color: blue;
-border: none;
-font-size: 20px;
-font-family: 'Alexandria', sans-serif;
-}
-input[type=submit]:hover{
-    background-color:blue;
-    color: aqua;
-    border: none;
-    font-size: 20px;
-    font-family: 'Alexandria', sans-serif;
-    }
+
+
     #logout,a{
         text-align: center;
     }
+    textarea{
+        width: 100%;
+    }
 
+#sync{
+    height: 30px;
+}
+#welcome{
+    color:white;
+}

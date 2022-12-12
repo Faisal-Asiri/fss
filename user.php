@@ -1,6 +1,6 @@
 
 <?php
 $user=$_SESSION['username'];
-echo"<h1>مرحبــا $user</h1>";
+echo"<p id='welcome'>مرحبــا $user</p>";
 
 ?>
